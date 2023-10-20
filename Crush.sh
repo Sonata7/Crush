@@ -1,5 +1,10 @@
 #!data/usr/bin/bash
 
+apt update && upgrade
+
+apt install figlet
+
+
 figlet -f big "Hey My Crush"
 echo "Enter your name"
 read name
